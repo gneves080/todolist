@@ -43,7 +43,6 @@ export function TodoProvider({ children }) {
     </TodoContext.Provider>
   );
 }
-
 export function useTodos() {
   return useContext(TodoContext);
 }
