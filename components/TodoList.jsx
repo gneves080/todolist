@@ -6,7 +6,6 @@ export default function TodoList() {
   const { todos, filter } = useTodos();
 
   const filteredTodos = useMemo(() => {
-    console.log("Filtrando...");
     
     switch (filter) {
       case "completed":
