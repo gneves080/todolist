@@ -4,8 +4,6 @@ import { useTodos } from "../context/TodoContext";
 function TodoItem({ todo }) {
   const { toggleTodo, removeTodo } = useTodos();
 
-  console.log("Renderizou:", todo.text);
-
   return (
     <li>
       <span
